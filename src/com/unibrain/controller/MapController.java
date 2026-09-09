@@ -20,6 +20,7 @@ public class MapController {
     // Load JSP page
     @GetMapping("/map")
     public String loadMapPage() {
+    	System.err.println("we are doing it..");
         return "map"; // map.jsp
     }
     
