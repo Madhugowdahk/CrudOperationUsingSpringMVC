@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+body {
+	font-size: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+		
+		
+			 background: radial-gradient(#4a92d7, #1e528e); 
+ 
+		
+}
+
+
+h1 {
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25px;
+}
+
+.form {
+	width: 100%;
+}
+
+table {
+	border-collapse: separate;
+	border: 1px solid black;
+	border-spacing: 0;
+	margin-top: 10px;
+	color: #4a4a4d;
+	font: 16px Verdana, Geneva, Tahoma, sans-serif;
+	margin-left: 40px;
+	overflow: hidden;
+	width: 95%;
+}
+
+th, td {
+	padding: 10px 15px;
+	vertical-align: middle;
+}
+
+th:first-child {
+	text-align: left;
+}
+
+thead {
+	background: #395870;
+	color: #fff;
+}
+
+tbody tr:nth-child(even) {
+	background: #f0f0f2;
+}
+
+td {
+	border-bottom: 1px solid #cecfd5;
+	border-right: 1px solid #cecfd5;
+}
+
+button[type="button"] {
+	font-size: 110%;
+	font-weight: 200;
+	background-color: #395870;
+	border-color: #fff;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 3px 0 #fff;
+	color: white;
+	margin-top: 10px;
+	margin-left: 295px;
+	cursor: pointer;
+	margin-left: 46px;
+}
+.fcc-btn {
+ background: #395870;
+	color: #fff;
+	margin-top: 60px;
+	margin-left: 10px
+	
+	
+}
+button[type="button"]:hover {
+	background: #395870;
+	border-color: #fff;
+}
